@@ -139,10 +139,6 @@ namespace StudentClass
             get { return this.middleName; }
             private set
             {
-                if (value == null)
-                {
-                    throw new ArgumentNullException();
-                }
                 this.middleName = value;
             }
         }

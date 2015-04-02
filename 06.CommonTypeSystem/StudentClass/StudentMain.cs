@@ -48,7 +48,7 @@ namespace StudentClass
 
             var clonedStudent1 = student1.Clone();
 
-            Console.WriteLine("\nCloned student1 : \n{0}", clonedStudent1);
+            Console.WriteLine("\nCloned student1 : \n{0}\n", clonedStudent1);
         }
     }
 }
